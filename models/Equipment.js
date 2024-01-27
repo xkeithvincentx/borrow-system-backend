@@ -7,6 +7,9 @@ const EquipmentSchema = mongoose.Schema({
   name: {
     type: String,
   },
+  category: {
+    type: mongoose.Schema.Types.ObjectId,
+  },
   modelNo: {
     type: String,
   },
