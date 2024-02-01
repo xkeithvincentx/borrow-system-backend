@@ -31,4 +31,7 @@ app.use("/api/instructor", instructor);
 
 mongoose.connect("mongodb://127.0.0.1:27017/borrowsystem");
 
-app.listen(3000);
+app.listen(3000, (err) => {
+  if (err) console.log("error");
+  else console.log("listening to port 3000");
+});
