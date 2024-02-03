@@ -1,0 +1,111 @@
+[
+  { "type": "Processor", "keyword": ["processor", "intel", "i7"] },
+  { "type": "Mother Board", "keyword": ["mother board"] },
+  { "type": "RAM", "keyword": ["ram"] },
+  { "type": "Video Card", "keyword": ["Video Card"] },
+  { "type": "Monitor", "keyword": ["Monitor"] },
+  { "type": "Keyboard", "keyword": ["Keyboard"] },
+  { "type": "Mouse", "keyword": ["Mouse"] },
+  { "type": "System Unit Casing", "keyword": ["Mouse"] },
+  { "type": "AVR/UPS", "keyword": ["AVR", "UPS"] },
+  { "type": "Printer", "keyword": ["EPSON", "Toner", "Printer", "Design Jet"] },
+  { "type": "Screen Projector", "keyword": ["Projector"] },
+  { "type": "Mouse Pad", "keyword": ["Mouse Pad"] },
+
+  {
+    "type": "Furniture",
+    "keyword": [
+      "Teacher's Table",
+      "White Board",
+      "Bookshelf ",
+      "Cabinet",
+      "Platform",
+      "Chair",
+      "Board",
+      "Postable Wooden Printer Holder",
+      "Window Curtains",
+      "BOSCH",
+      "Sofa"
+    ]
+  },
+  {
+    "type": "Safety Equipment",
+    "keyword": ["Fire Extinguisher", "First Aid Kit"]
+  },
+  {
+    "type": "Aircon",
+    "keyword": ["Aircon", "Air- Conditioning"]
+  },
+  {
+    "type": "Cable",
+    "keyword": ["Network Cable", "Cable", "RGB"]
+  },
+  {
+    "type": "Power cord",
+    "keyword": ["Power chord"]
+  },
+  {
+    "type": "Speaker",
+    "keyword": ["Speaker", "Amplifier"]
+  },
+  {
+    "type": "CD",
+    "keyword": ["Installer", "CD"]
+  },
+  {
+    "type": "Wire",
+    "keyword": ["Wire"]
+  },
+  {
+    "type": "Soldering Iron",
+    "keyword": ["solder"]
+  },
+  {
+    "type": "Brush",
+    "keyword": ["brush"]
+  },
+  {
+    "type": "Screw Driver",
+    "keyword": ["screw driver"]
+  },
+  {
+    "type": "Glue Gun",
+    "keyword": ["Glue Gun"]
+  },
+  {
+    "type": "Pliers",
+    "keyword": ["Plier"]
+  },
+  {
+    "type": "Wire Cutter",
+    "keyword": ["Plier"]
+  },
+  {
+    "type": "Camera",
+    "keyword": ["cam"]
+  },
+  {
+    "type": "Lockset",
+    "keyword": ["Lockset"]
+  },
+  {
+    "type": "Clock",
+    "keyword": ["clock"]
+  },
+  {
+    "type": "Cleaning Equipment",
+    "keyword": ["Mop", "Trash can"]
+  },
+  {
+    "type": "Cleaning Equipment",
+    "keyword": ["Mop", "Trash can"]
+  },
+  {
+    "type": "Documents",
+    "keyword": ["University Mission/Vision"]
+  },
+  {
+    "type": "Documents",
+    "keyword": ["University Mission/Vision"]
+  }
+]

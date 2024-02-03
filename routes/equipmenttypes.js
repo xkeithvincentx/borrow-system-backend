@@ -12,7 +12,7 @@ router.get("/", async (req, res) => {
       EquipmentType.find()
         .limit(limit * 1)
         .skip((page - 1) * limit),
-      EquipmentType.count(),
+      EquipmentType.find({ dis: true }).count(),
     ]);
 
     res.json({
