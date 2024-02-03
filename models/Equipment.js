@@ -4,40 +4,62 @@ const EquipmentSchema = mongoose.Schema({
   serialNo: {
     type: String,
   },
-  name: {
-    type: String,
-  },
-  category: {
+  equipmentType: {
     type: mongoose.Schema.Types.ObjectId,
   },
-  modelNo: {
-    type: String,
-  },
-  description: {
+  name: {
     type: String,
   },
   brand: {
     type: String,
   },
-  type: {
-    type: mongoose.Schema.Types.ObjectId,
-    ref: 'equipmentType',
-    required: true
-  },
-  condition: {
+  color: {
     type: String,
-    required: true,
-    default: "good"
+  },
+  modelNo: {
+    type: String,
+  },
+  quantity: {
+    type: Number,
+  },
+  unit: {
+    type: String,
+  },
+  matter: {
+    type: String,
+  },
+  description: {
+    type: String,
+  },
+  status: {
+    type: String,
   },
   dateAcquired: {
     type: Date,
     required: true,
-    default: Date.now
+    default: Date.now,
+  },
+  imagePath: [
+    {
+      type: String,
+    },
+  ],
+  remarks: {
+    type: String,
+  },
+  tags: {
+    type: Boolean,
+  },
+  checkedBy: {
+    type: String,
+  },
+  department: {
+    type: Number,
   },
   dis: {
     type: Boolean,
-    default: true
-  }
+    default: true,
+  },
 });
 
-module.exports = mongoose.model('equipment', EquipmentSchema);
+module.exports = mongoose.model("equipment", EquipmentSchema);
