@@ -1,31 +1,135 @@
 [
-  { "type": "Processor", "keyword": ["processor", "intel", "i7"] },
-  { "type": "Mother Board", "keyword": ["mother board"] },
-  { "type": "RAM", "keyword": ["ram"] },
-  { "type": "Video Card", "keyword": ["Video Card"] },
-  { "type": "Monitor", "keyword": ["Monitor"] },
-  { "type": "Keyboard", "keyword": ["Keyboard"] },
-  { "type": "Mouse", "keyword": ["Mouse"] },
-  { "type": "System Unit Casing", "keyword": ["Mouse"] },
-  { "type": "AVR/UPS", "keyword": ["AVR", "UPS"] },
-  { "type": "Printer", "keyword": ["EPSON", "Toner", "Printer", "Design Jet"] },
-  { "type": "Screen Projector", "keyword": ["Projector"] },
-  { "type": "Mouse Pad", "keyword": ["Mouse Pad"] },
-
+  {
+    "type": "AVR/UPS",
+    "keyword": [
+      "AVR", 
+      "UPS",
+      "Voltage Regulator",
+      "Line Interactive",
+      "Interactive"
+    ]
+  },
+  {
+    "type": "Printer",
+    "keyword": [
+      "EPSON",
+      "Toner",
+      "Printer",
+      "Design Jet",
+      "LaserJet",
+      "Printer Scanner",
+      "FormLabs",
+      "Form",
+      "3D Printer"
+    ]
+  },
+  {
+    "type": "Scanner",
+    "keyword": ["Scanner"]
+  },
+  {
+    "type": "Laptop",
+    "keyword": [
+      "Laptop",
+      "Lenovo",
+      "HP",
+      "Asus",
+      "Acer",
+      "Apple",
+      "Gray",
+      "Black"
+    ]
+  },
+  {
+    "type": "Desktop",
+    "keyword": ["Desktop"]
+  },
+  {
+    "type": "Phone",
+    "keyword": [
+      "Tablet",
+      "Phone",
+      "Android",
+      "iPhone",
+      "Samsung"
+    ]
+  },
+  {
+    "type": "Computer Accessories",
+    "keyword": [
+      "AV Adapter",
+      "Mini Display",
+      "Adapter",
+      "Dongle",
+      "Adaptor",
+      "USB Adaptor",
+      "Keyboard",
+      "Mouse",
+      "Presenter",
+      "Headset",
+      "Pointer",
+      "Monitor",
+      "RAM",
+      "Video Card",
+      "Casing",
+      "Motherboard",
+      "Processor",
+      "Mother Board",
+      "Bar Scanner",
+      "Docking Station",
+      "Sound Bar",
+      "Webcam",
+      "Hard Disk",
+      "Board"
+    ]
+  },
+  {
+    "type": "Network",
+    "keyword": [
+      "switch",
+      "router"
+    ]
+  },
+  {
+    "type": "Security Camera",
+    "keyword": [
+      "Security Camera",
+      "IP Camera"
+    ]
+  },
   {
     "type": "Furniture",
     "keyword": [
-      "Teacher's Table",
+      "Table",
       "White Board",
-      "Bookshelf ",
+      "Bookshelf",
       "Cabinet",
+      "Drawer",
+      "Tray",
       "Platform",
       "Chair",
+      "Stool",
+      "Bell",
       "Board",
       "Postable Wooden Printer Holder",
       "Window Curtains",
       "BOSCH",
-      "Sofa"
+      "Sofa",
+      "Mirror",
+      "Refrigerator",
+      "Microwave",
+      "Coffee Maker",
+      "Flash Light",
+      "Scale",
+      "Scissor",
+      "Scraper",
+      "Speed Stacks",
+      "Stapler",
+      "Ruler",
+      "Tape",
+      "Mannequin",
+      "clock",
+      "bulb"
     ]
   },
   {
@@ -34,75 +138,228 @@
   },
   {
     "type": "Aircon",
-    "keyword": ["Aircon", "Air- Conditioning"]
+    "keyword": [
+      "Aircon",
+      "Air- Conditioning",
+      "Air Conditioner",
+      "Airconditioner"
+    ]
+  },
+  {
+    "type": "Air Purifier",
+    "keyword": [
+      "Air Purifier",
+      "Air- Purifier"]
+  },
+  {
+    "type": "Fan",
+    "keyword": ["Fan"]
+  },
+  {
+    "type": "Dispenser",
+    "keyword": ["Dispenser"]
   },
   {
     "type": "Cable",
-    "keyword": ["Network Cable", "Cable", "RGB"]
+    "keyword": [
+      "Network Cable",
+      "Cable",
+      "RGB"]
   },
   {
-    "type": "Power cord",
-    "keyword": ["Power chord"]
+    "type": "Module",
+    "keyword": ["Module"]
   },
   {
-    "type": "Speaker",
-    "keyword": ["Speaker", "Amplifier"]
+    "type": "Stopwatch",
+    "keyword": ["Stopwatch"]
+  },
+  {
+    "type": "Electrical Component",
+    "keyword": [
+      "Wire",
+      "Connecting Wire",
+      "Oscillator",
+      "Switched",
+      "Switches",
+      "Inductor",
+      "Resistor",
+      "Capacitor"
+    ]
+  },
+  {
+    "type": "Sensor",
+    "keyword": [
+      "Proximity",
+      "Infrared",
+      "Distance",
+      "Sensor"
+    ]
+  },
+  {
+    "type": "Trainer",
+    "keyword": [
+      "Trainer",
+      "FPGA",
+      "Quartus",
+      "Oscilloscope",
+      "MDA",
+      "MCU",
+      "Breadboard"
+    ]
+  },
+  {
+    "type": "Inverter",
+    "keyword": ["Inverter"]
+  },
+  {
+    "type": "Converter",
+    "keyword": ["Converter"]
+  },
+  {
+    "type": "Generator",
+    "keyword": ["Generator"]
+  },
+  {
+    "type": "Power Supply",
+    "keyword": ["Power Supply"]
+  },
+  {
+    "type": "Breaker",
+    "keyword": ["Breaker",
+      "Contactor",
+      "Voltage Controller",
+      "DC Starter"
+    ]
+  },
+  {
+    "type": "Equalizer",
+    "keyword": ["Equalizer"]
+  },
+  {
+    "type": "Measuring Instruments",
+    "keyword": [
+      "Meter",
+      "Tester",
+      "Ammeter",
+      "Multimeter",
+      "Voltmeter",
+      "Gauge",
+      "Multitester",
+      "Caliper",
+      "Tape Measure",
+      "Measuring Tape",
+      "Tachometer",
+      "Galvanometer",
+      "Wattmeter",
+      "Luxmeter",
+      "Dynamometer"
+    ]
+  },
+  {
+    "type": "Tester",
+    "keyword": [
+      "TTester",
+      "Cable Tester",
+      "IC Tester",
+      "Logic Probe"
+    ]
+  },
+  {
+    "type": "Microcontroller",
+    "keyword": [
+      "Arduino"
+    ]
+  },
+  {
+    "type": "Uploader",
+    "keyword": [
+      "Programmer"
+    ]
+
+  },
+  {
+    "type": "Instructional Material",
+    "keyword": [
+      "Microphone",
+      "Speaker",
+      "Amplifier",
+      "Cassette",
+      "TV",
+      "Cam",
+      "Camera",
+      "Projector",
+      "XBOX360"
+    ]
+  },
+  {
+    "type": "Motor",
+    "keyword": [
+      "Motor",
+      "Servo Motor",
+      "Rotor Motor"
+    ]
+  },
+  {
+    "type": "Telephone",
+    "keyword": ["Telephone"]
   },
   {
     "type": "CD",
     "keyword": ["Installer", "CD"]
   },
   {
-    "type": "Wire",
-    "keyword": ["Wire"]
+    "type": "Cable",
+    "keyword": ["Power chord"]
   },
   {
     "type": "Soldering Iron",
     "keyword": ["solder"]
   },
   {
-    "type": "Brush",
-    "keyword": ["brush"]
-  },
-  {
-    "type": "Screw Driver",
-    "keyword": ["screw driver"]
-  },
-  {
-    "type": "Glue Gun",
-    "keyword": ["Glue Gun"]
+    "type": "Turning Screw",
+    "keyword": [
+      "screw driver",
+      "hex"
+    ]
   },
   {
     "type": "Pliers",
-    "keyword": ["Plier"]
+    "keyword": [
+      "Plier",
+      "Wire Cutter",
+      "Cutter Plier",
+      "Crimping Tool",
+      "Stripper",
+      "Slip Joint",
+      "Long Nose",
+      "Lineman",
+      "Side Cutter"
+
+    ]
   },
   {
-    "type": "Wire Cutter",
-    "keyword": ["Plier"]
+    "type": "Electric Hand tool",
+    "keyword": [
+      "Glue Gun",
+      "Soldering Gun"
+    ]
   },
   {
-    "type": "Camera",
-    "keyword": ["cam"]
+    "type": "Carpentry Tool",
+    "keyword": ["Hammer", "Hacksaw"]
   },
   {
     "type": "Lockset",
     "keyword": ["Lockset"]
   },
   {
-    "type": "Clock",
-    "keyword": ["clock"]
+    "type": "Skeleton",
+    "keyword": ["Skeleton"]
   },
   {
     "type": "Cleaning Equipment",
-    "keyword": ["Mop", "Trash can"]
-  },
-  {
-    "type": "Cleaning Equipment",
-    "keyword": ["Mop", "Trash can"]
-  },
-  {
-    "type": "Documents",
-    "keyword": ["University Mission/Vision"]
+    "keyword": ["Mop", "Trash can", "Trash bin", "Brush"]
   },
   {
     "type": "Documents",

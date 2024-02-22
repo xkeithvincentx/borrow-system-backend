@@ -5,7 +5,7 @@ const EquipmentSchema = mongoose.Schema({
     type: String,
   },
   equipmentType: {
-    type: mongoose.Schema.Types.ObjectId,
+    type: mongoose.Schema.Types.String,
   },
   name: {
     type: String,
@@ -27,6 +27,7 @@ const EquipmentSchema = mongoose.Schema({
   },
   matter: {
     type: String,
+    default: "Solid",
   },
   description: {
     type: String,
@@ -39,11 +40,10 @@ const EquipmentSchema = mongoose.Schema({
     required: true,
     default: Date.now,
   },
-  imagePath: [
-    {
-      type: String,
-    },
-  ],
+  imagePath: 
+  {
+    type: String,
+  },
   remarks: {
     type: String,
   },
@@ -54,7 +54,7 @@ const EquipmentSchema = mongoose.Schema({
     type: String,
   },
   department: {
-    type: Number,
+    type: String,
   },
   dis: {
     type: Boolean,

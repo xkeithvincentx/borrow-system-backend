@@ -1,0 +1,14 @@
+[
+    {
+        "type": "Functional",
+        "keyword": ["function", "good", "condition"]
+    },
+    {
+        "type": "Turnover",
+        "keyword": ["turnover", "turn", "seal", "inside", "box", "container"]
+    },
+    {
+        "type": "Lost",
+        "keyword": ["misplaced", "lost", "cannot", "found"]
+    }
+]
