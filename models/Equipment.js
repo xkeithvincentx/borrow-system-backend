@@ -40,9 +40,11 @@ const EquipmentSchema = mongoose.Schema({
     required: true,
     default: Date.now,
   },
-  imagePath: 
+  images: 
   {
-    type: String,
+    thumbnailUrl: String,
+    midSizeUrl: String,
+    Url: String,
   },
   remarks: {
     type: String,

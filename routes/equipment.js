@@ -133,10 +133,44 @@ router.get("/getbycolordesc", async (req, res) => {
 
 router.post("/", async (req, res) => {
   try {
-    let data = req.body;
+    let {authorize, uploadFile, createNewFolder, compressImage, thumbSizeUpload, midSizeUpload, convertImage, fetchImage, toThumbnail, toMidSize, initializeVariable, getThumbnailURL, getMidSizeURL} = require('../scripts/uploadEquipment');
+
+    let data = await req.body;
+    let directory = {
+      Inventory: '16Hn6FnhtPplQaLiMXKPIqMWBjoY7l6T4',
+      Non_Inventory: '1PN3cEnrDHW0LmVvAJEjNEMASBpdizTES',
+    }
+     
+    let URL = await data.images.Url;
+    let mainFolder = "";
+
+    console.log("Current URL: "+ URL);
+    if (data.description === "Inventory")
+    {
+      mainFolder = directory.Inventory;
+    }
+    else 
+    {
+      mainFolder = directory.Non_Inventory;
+    }
+    let department = data.department;
+    let nameEquipment = data.equipmentType;
+
+    await initializeVariable(department, nameEquipment,URL,mainFolder);
+    await compressImage();
+
+    let thumbnailUrl = await getThumbnailURL();
+    let midSizeUrl = await getMidSizeURL();
+
+    // thumbnailUrl, midSizeUrl = await getURL();
+
+    console.log("Thumbnail Url : " + thumbnailUrl);
+
+    data.images.thumbnailUrl = thumbnailUrl;
+    data.images.midSizeUrl = midSizeUrl;
     await Equipment.create(data);
     res.json({
-      data: null,
+      data: data,
       message: "success create",
       success: true,
     });

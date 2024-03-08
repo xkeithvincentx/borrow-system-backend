@@ -1,6 +1,8 @@
 const equipmenttypes = require("./equipmenttypes.json");
 const EquipmentType = require("../models/EquipmentTypes");
 const mongoose = require("mongoose");
+require('dotenv').config();
+
 
 (async () => {
   await connectDB();
@@ -59,10 +61,10 @@ async function createEquipmentType(data) {
 
 async function connectDB() {
   try {
-    mongoose.set("strictQuery", true);
-    await mongoose.connect("mongodb://127.0.0.1:27017/borrowsystem");
+    // mongoose.set("strictQuery", true);
+    await mongoose.connect(process.env.DATABASE);
     console.log("database connected");
   } catch (err) {
-    console.log(err);
+    // console.log(err);
   }
 }
